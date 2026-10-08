@@ -1,23 +1,23 @@
-# EXHIBIT 24.6 — AI SECURITY VALIDATION: DEMONSTRATED PROOF-OF-CONCEPT
+# EXHIBIT 23.6 — AI SECURITY VALIDATION: DEMONSTRATED PROOF-OF-CONCEPT
 [Draft template -- replace all bracketed items with your own words and actual figures before use]
 
 Author: Prabhuram Balaraman
 Status: Demonstrated proof-of-concept, self-built and self-measured
 [not part of any employer engagement -- confirm and state this]
-Extends: The taxonomy specified at Exhibit 24.3 and the governance pattern
-at Exhibit 24.4
+Extends: The taxonomy specified at Exhibit 23.3 and the governance pattern
+at Exhibit 23.4
 Supports: Section IV.C of the Brief in Support of Petition (proposed
 endeavor, component two)
 
 ## 1. Summary
 
 [One paragraph: what you built, what it demonstrates, one-sentence result.
-Mirror the tone of Exhibit 24.1 Part A.1 -- plain, factual, no adjectives
+Mirror the tone of Exhibit 23.1 Part A.1 -- plain, factual, no adjectives
 doing the work of the numbers.]
 
 ## 2. Purpose and scope
 
-Exhibit 24.3 specified a taxonomy of AI security risk categories in the
+Exhibit 23.3 specified a taxonomy of AI security risk categories in the
 abstract. To test whether that taxonomy translates into a working validation
 method rather than remaining a paper design, I built a small demonstration
 system and ran the taxonomy's test techniques against it.
@@ -42,7 +42,7 @@ and that the same 7 test cases were run against both.]
 ## 5. Measured outcomes
 
 [Insert your actual results.json numbers here as a table, in the same
-format as Exhibit 24.1's Measured Outcomes tables, e.g.:]
+format as Exhibit 23.1's Measured Outcomes tables, e.g.:]
 
 | Measure | Baseline (unprotected) | Hardened (control added) |
 |---|---|---|
@@ -51,7 +51,7 @@ format as Exhibit 24.1's Measured Outcomes tables, e.g.:]
 
 ## 6. Basis of the figures, and what they do not establish
 
-[This section matters most -- it's what made Exhibit 24.1 credible. Be
+[This section matters most -- it's what made Exhibit 23.1 credible. Be
 explicit and conservative, e.g.:]
 
 - These figures come from a single run [or: the runs on DATE(S)] of a
@@ -73,9 +73,9 @@ explicit and conservative, e.g.:]
 ## 7. Relevance to the proposed endeavor
 
 [Tie back explicitly: this demonstrates that the design specified at Exhibit
-24.3 can be operationalized and produces a measurable before/after result,
+23.3 can be operationalized and produces a measurable before/after result,
 using the same evidentiary discipline (stated baseline, stated result,
-stated basis) as the non-AI work at Exhibit 24.1. State plainly that this
+stated basis) as the non-AI work at Exhibit 23.1. State plainly that this
 remains a small-scale demonstration, not a production deployment, and that
 it establishes feasibility and execution capability rather than
 comprehensive security coverage.]
