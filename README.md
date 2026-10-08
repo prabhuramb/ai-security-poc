@@ -1,7 +1,7 @@
 # AI Security Validation Proof-of-Concept
 
 A small, self-contained demonstration of the AI security validation approach
-described at Exhibit 24.3 (adversarial taxonomy) and Exhibit 24.4 (governance
+described at Exhibit 23.3 (adversarial taxonomy) and Exhibit 23.4 (governance
 gate pattern). This is a toy system built for this purpose only -- it contains
 no employer or client data, code, or configuration of any kind.
 
