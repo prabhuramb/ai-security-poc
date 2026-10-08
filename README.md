@@ -49,7 +49,7 @@ This will:
 1. Run all 7 test cases (2 benign controls + 5 adversarial cases) against
    both the baseline and hardened configurations.
 2. Print a summary table to the terminal.
-3. Write full results, including the actual model responses, to `results.json`.
+3. Write full results, including the actual model responses, to `results_runN.json`.
 
 A full run typically takes 1-3 minutes depending on your machine and the
 model chosen.
