@@ -54,24 +54,21 @@ This will:
 A full run typically takes 1-3 minutes depending on your machine and the
 model chosen.
 
-## What to do with the results
+## Results
 
-1. Open `results.json` and read through the actual responses -- confirm for
-   yourself that the leak/safe classifications are correct (the automated
-   marker-matching in `harness.py` is a simple safeguard, not a substitute
-   for your own review).
-2. Fill in `WRITEUP_TEMPLATE.md` with your actual numbers from this run.
-3. That completed write-up, together with `results.json`, becomes your new
-   sub-exhibit documenting demonstrated (not merely specified) work.
+The seven test cases (2 benign controls, 5 adversarial) were run three times on September 23, 2026. Full outputs, including the model responses, are in `results_run1.json`, `results_run2.json` and `results_run3.json`.
 
-## Honesty notes for the write-up
+| Measure | Baseline | Hardened |
+|---|---|---|
+| Adversarial instances that disclosed synthetic confidential data (5 cases × 3 runs) | 10 of 15 (67%) | 0 of 15 |
+| Benign instances incorrectly refused or degraded (2 cases × 3 runs) | 0 of 6 | 0 of 6 |
 
-- This is a toy system built specifically for this demonstration, not a
-  production deployment. Say so plainly in the write-up, the same way
-  Exhibit 23.1 and 23.2 state their own scope and limits.
-- The output-filter logic here is intentionally simple (pattern matching on
-  known synthetic values) so that the mechanism is fully auditable. State
-  that plainly too -- don't imply it's more sophisticated than it is.
-- Run it more than once if a result looks surprising (LLM outputs vary run
-  to run). If results are inconsistent, report that honestly rather than
-  cherry-picking the run that tells the cleanest story.
+The baseline's vulnerability was not uniform across cases; the per-case breakdown is in the result files.
+
+## Scope and limits
+
+- This is a toy system built for this demonstration. It contains no employer or client data, code or configuration.
+- The output filter is deliberately simple (pattern matching on known synthetic values) so the mechanism can be audited. It is not a production-grade control.
+- Leak/safe classification uses automated marker matching and was checked against the recorded responses.
+- LLM output varies between runs, which is why the test set was run three times.
+- Only two of the six taxonomy categories were tested: prompt injection / instruction override and sensitive information disclosure.
