@@ -2,7 +2,7 @@
 
 A small, self-contained demonstration of the AI security validation approach
 described at Exhibit 23.3 (adversarial taxonomy) and Exhibit 23.4 (governance
-gate pattern). This is a toy system built for this purpose only -- it contains
+gate pattern). This is a small-scale reference implementation system built for this purpose only -- it contains
 no employer or client data, code, or configuration of any kind.
 
 ## What this demonstrates
@@ -67,7 +67,7 @@ The baseline's vulnerability was not uniform across cases; the per-case breakdow
 
 ## Scope and limits
 
-- This is a toy system built for this demonstration. It contains no employer or client data, code or configuration.
+- This is a small-scale reference implementation system built for this demonstration. It contains no employer or client data, code or configuration.
 - The output filter is deliberately simple (pattern matching on known synthetic values) so the mechanism can be audited. It is not a production-grade control.
 - Leak/safe classification uses automated marker matching and was checked against the recorded responses.
 - LLM output varies between runs, which is why the test set was run three times.
