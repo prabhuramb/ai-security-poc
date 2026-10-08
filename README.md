@@ -8,7 +8,7 @@ no employer or client data, code, or configuration of any kind.
 ## What this demonstrates
 
 A minimal RAG-style HR assistant is tested against adversarial inputs
-implementing two categories from the Exhibit 24.3 taxonomy:
+implementing two categories from the Exhibit 23.3 taxonomy:
 - Prompt injection and instruction override (direct and indirect)
 - Sensitive information disclosure
 
@@ -68,7 +68,7 @@ model chosen.
 
 - This is a toy system built specifically for this demonstration, not a
   production deployment. Say so plainly in the write-up, the same way
-  Exhibit 24.1 and 24.2 state their own scope and limits.
+  Exhibit 23.1 and 23.2 state their own scope and limits.
 - The output-filter logic here is intentionally simple (pattern matching on
   known synthetic values) so that the mechanism is fully auditable. State
   that plainly too -- don't imply it's more sophisticated than it is.
