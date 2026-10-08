@@ -1,5 +1,4 @@
 # EXHIBIT 23.6 — AI SECURITY VALIDATION: DEMONSTRATED PROOF-OF-CONCEPT
-[Draft template -- replace all bracketed items with your own words and actual figures before use]
 
 Author: Prabhuram Balaraman
 Status: Demonstrated proof-of-concept, self-built and self-measured
