@@ -72,3 +72,9 @@ The baseline's vulnerability was not uniform across cases; the per-case breakdow
 - Leak/safe classification uses automated marker matching and was checked against the recorded responses.
 - LLM output varies between runs, which is why the test set was run three times.
 - Only two of the six taxonomy categories were tested: prompt injection / instruction override and sensitive information disclosure.
+
+## License
+
+Code in this repository is licensed under the Apache License, Version 2.0 (see `LICENSE`). Documentation, write-ups, and other non-code files are licensed under Creative Commons Attribution 4.0 International, CC BY 4.0 (see `LICENSE-DOCS.txt`).
+
+Copyright 2026 Prabhuram Balaraman. All data in this repository is synthetic.
